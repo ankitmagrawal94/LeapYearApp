@@ -26,5 +26,4 @@ public class LeapYearTest {
         assertEquals(false,LeapYear.testLeapYear(2019));
     }
 
-
 }
