@@ -7,22 +7,22 @@ import static org.junit.Assert.assertEquals;
 public class LeapYearTest {
 
     @Test
-    public void testLeapYearFirst(){
+    public void testLeapYearFirstUseCase(){
         assertEquals(true,LeapYear.testLeapYear(2000));
     }
 
     @Test
-    public void testLeapYearSecond(){
+    public void testLeapYearSecondUseCase(){
         assertEquals(false,LeapYear.testLeapYear(1900));
     }
 
     @Test
-    public void testLeapYearThird(){
+    public void testLeapYearThirdUseCase(){
         assertEquals(true,LeapYear.testLeapYear(2016));
     }
 
     @Test
-    public void testLeapYearFour(){
+    public void testLeapYearFourUseCase(){
         assertEquals(false,LeapYear.testLeapYear(2019));
     }
 
